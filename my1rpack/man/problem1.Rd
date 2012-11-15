@@ -1,9 +1,9 @@
-\name{Problem 1}
-\alias{Homeworkset 2}
+\name{Problem1}
+\alias{Problem1}
 \title{problem1 function}
 \description{This function compiled to generated a "line" plot of standard normal density(ie., dnorm) over the interval defined by the user. That plot is presented in a PDF file.}
 \usage{
-function(filename,fcnname,LRrange,nsample,compile)
+Problem1(filename,fcnname,LRrange,nsample,compile)
 }
 
 \arguments{
@@ -19,7 +19,8 @@ function(filename,fcnname,LRrange,nsample,compile)
 
 \examples{
 require(tikzDevice)
+require(my1rpack)
 YesNo<-1
-problem1('bmw1Series',dnorm,c(-5,5),10,YesNo) 
-
+Problem1
+%Problem1('bmw1Series',dnorm,c(-5,5),10,YesNo) 
 }

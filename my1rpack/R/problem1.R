@@ -1,4 +1,4 @@
-problem1<-function(filename=NULL,fcnname=NULL,LRrange=NULL,nsample=NULL,compile=NULL)
+Problem1<-function(filename=NULL,fcnname=NULL,LRrange=NULL,nsample=NULL,compile=NULL)
 {
   outputtexfile=paste(filename,".tex",sep="") 
   tikz(outputtexfile,standAlone=TRUE)
